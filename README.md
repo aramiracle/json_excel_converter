@@ -1,16 +1,16 @@
 # JsonExcelConverter
 
-`JsonExcelConverter` is a Python class designed to facilitate the conversion between JSON and Excel file formats. It provides methods to convert JSON data to Excel spreadsheets and vice versa, while ensuring that the data structure is consistent and correctly formatted.
+`JsonExcelConverter` is a Python class designed to facilitate the conversion between JSON and Excel file formats. It provides methods to convert JSON data to Excel spreadsheets and vice versa, while ensuring that the data structure is consistent and correctly formatted.📊🔄
 
-## Features
+## Features🌟
 
-- Convert JSON data to Excel spreadsheets with hierarchical levels flattened.
-- Convert Excel spreadsheets back to nested JSON structures.
-- Validate that JSON data is consistent in depth before conversion.
-- Ensure that Excel data rows are consistent in depth before conversion.
-- Save converted data to specified output files with proper formatting.
+- Convert JSON data to Excel spreadsheets with hierarchical levels flattened.📈
+- Convert Excel spreadsheets back to nested JSON structures.🔄
+- Validate that JSON data is consistent in depth before conversion.✅
+- Ensure that Excel data rows are consistent in depth before conversion.📏
+- Save converted data to specified output files with proper formatting.💾
 
-## Requirements
+## Requirements🛠️
 
 - Python 3.x
 - Pandas
@@ -22,7 +22,7 @@ You can install the required Python packages using pip:
 pip install pandas openpyxl
 ```
 
-## Installation
+## Installation🚀
 
 Clone this repository or download the source code. Ensure you have Python 3.x installed and the required packages.
 
@@ -32,7 +32,7 @@ cd JsonExcelConverter
 pip install -r requirements.txt
 ```
 
-## Usage
+## Usage📚
 
 ### Initializing the Converter
 
@@ -74,7 +74,7 @@ converter = JsonExcelConverter(excel_file='data.xlsx', output_json_file='output.
 converter.excel_to_json()  # Converts Excel to JSON
 ```
 
-## Methods
+## Methods🛠️
 
 ### `json_to_excel()`
 
@@ -92,24 +92,24 @@ Converts an Excel file to a JSON file. The Excel file must have rows that are co
 
 ### `_validate_json_depth(data)`
 
-Validates that all JSON data is at the same depth.
+Validates that all JSON data is at the same depth.❌
 
 **Args:**
 - `data` (dict): JSON data to be validated.
 
 **Raises:**
-- `ValueError` if JSON data is not consistent in depth.
+- `ValueError` if JSON data is not consistent in depth.❌
 
 ### `_validate_excel_depth(data)`
 
-Validates that all rows in the Excel data have the same depth.
+Validates that all rows in the Excel data have the same depth.❌
 
 **Args:**
 - `data` (dict): Nested dictionary to be validated.
 
 **Raises:**
-- `ValueError` if Excel rows are not consistent in depth.
+- `ValueError` if Excel rows are not consistent in depth.❌
 
-## Contributing
+## Contributing🤝
 
-Feel free to contribute to this small project by submitting issues, bug reports, or feature requests.
+Feel free to contribute to this small project by submitting issues, bug reports, or feature requests.🚀
