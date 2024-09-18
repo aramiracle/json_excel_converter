@@ -1,0 +1,103 @@
+{
+    "Books": {
+        "Fiction": {
+            "Genres": {
+                "Science Fiction": {
+                    "Subgenres": ["Dystopian", "Space Opera", "Cyberpunk"],
+                    "Formats": ["Paperback", "Hardcover", "E-Book", "Audiobook"]
+                },
+                "Fantasy": {
+                    "Subgenres": ["Epic Fantasy", "Urban Fantasy", "Historical Fantasy"],
+                    "Formats": ["Paperback", "Hardcover", "E-Book", "Audiobook"]
+                }
+            }
+        },
+        "Non-Fiction": {
+            "Categories": {
+                "Biographies": {
+                    "Types": ["Autobiographies", "Memoirs", "Historical Biographies"],
+                    "Formats": ["Paperback", "Hardcover", "E-Book", "Audiobook"]
+                },
+                "Self-Help": {
+                    "Subcategories": ["Personal Development", "Motivational", "Mental Health"],
+                    "Formats": ["Paperback", "Hardcover", "E-Book", "Audiobook"]
+                }
+            }
+        },
+        "Children's Books": {
+            "Ages": {
+                "Toddlers": {
+                    "Formats": ["Board Books", "Picture Books"],
+                    "Genres": ["Adventure", "Fantasy", "Educational"]
+                },
+                "Early Readers": {
+                    "Formats": ["Easy Readers", "Chapter Books"],
+                    "Genres": ["Adventure", "Fantasy", "Educational"]
+                }
+            }
+        },
+        "Young Adult": {
+            "Genres": {
+                "Romance": {
+                    "Subgenres": ["Contemporary Romance", "Historical Romance", "Paranormal Romance"],
+                    "Formats": ["Paperback", "Hardcover", "E-Book", "Audiobook"]
+                },
+                "Thriller": {
+                    "Subgenres": ["Mystery", "Psychological Thriller", "Crime"],
+                    "Formats": ["Paperback", "Hardcover", "E-Book", "Audiobook"]
+                }
+            }
+        }
+    },
+    "Games": {
+        "Video Games": {
+            "Genres": {
+                "Action": {
+                    "Subgenres": ["Shooter", "Platformer", "Hack and Slash"],
+                    "Platforms": ["PC", "PlayStation", "Xbox", "Nintendo Switch"]
+                },
+                "Adventure": {
+                    "Subgenres": ["Open World", "Puzzle", "Survival"],
+                    "Platforms": ["PC", "PlayStation", "Xbox", "Nintendo Switch"]
+                }
+            }
+        },
+        "Board Games": {
+            "Categories": {
+                "Strategy": {
+                    "Types": ["Worker Placement", "Deck-Building", "Area Control"],
+                    "Player Counts": ["2-4 Players", "5-6 Players", "7+ Players"]
+                },
+                "Party": {
+                    "Types": ["Trivia", "Social Deduction", "Word Games"],
+                    "Player Counts": ["2-4 Players", "5-6 Players", "7+ Players"]
+                }
+            }
+        },
+        "Card Games": {
+            "Types": {
+                "Collectible Card Games": {
+                    "Examples": ["Magic: The Gathering", "Yu-Gi-Oh!", "Pokémon"],
+                    "Formats": ["Standard Deck", "Custom Deck", "Unofficial"]
+                },
+                "Deck-Building Games": {
+                    "Examples": ["Dominion", "Ascension", "Star Realms"],
+                    "Formats": ["Standard Deck", "Custom Deck", "Unofficial"]
+                }
+            }
+        },
+        "Tabletop RPGs": {
+            "Systems": {
+                "Dungeons & Dragons": {
+                    "Books": ["Core Rulebooks", "Campaign Settings", "Adventures"],
+                    "Formats": ["Physical", "Digital"]
+                },
+                "Pathfinder": {
+                    "Books": ["Core Rulebooks", "Campaign Settings", "Adventure Paths"],
+                    "Formats": ["Physical", "Digital"]
+                }
+            }
+        }
+    }
+}
+
