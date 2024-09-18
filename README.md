@@ -27,9 +27,8 @@ pip install pandas openpyxl
 Clone this repository or download the source code. Ensure you have Python 3.x installed and the required packages.
 
 ```
-git clone https://github.com/yourusername/JsonExcelConverter.git
-cd JsonExcelConverter
-pip install -r requirements.txt
+git clone https://github.com/aramiracle/json_excel_converter.git
+cd json_excel_converter
 ```
 
 ## Usage📚
@@ -39,7 +38,7 @@ pip install -r requirements.txt
 You can initialize the `JsonExcelConverter` with various combinations of input and output files.
 
 ```
-from JsonExcelConverter import JsonExcelConverter
+from json_excel_converter import JsonExcelConverter
 
 # Initialize with JSON file
 converter = JsonExcelConverter(json_file='data.json')
